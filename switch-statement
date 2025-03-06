@@ -1,1 +1,31 @@
-switch
+package com.kunal;
+
+import java.util.Scanner;
+
+public class Switch {
+    public static void main(String[] args) {
+        System.out.println("enter the name of fruit");
+        Scanner in = new Scanner(System.in);
+        String fruit = in.next();
+
+
+        switch (fruit) {
+            case "mango":
+                System.out.println("king of fruit");
+                break;
+            case "apple":
+                System.out.println("its a fruit");
+                break;
+            case "orange":
+                System.out.println("orange fruit");
+                break;
+            case "banana":
+                System.out.println("banana fruit");
+                break;
+            default:
+                System.out.println("unknown fruit");
+
+        }
+    }
+}
+
